@@ -283,8 +283,8 @@ home__title{
 .home__description{
     margin-bottom: var(--mb-2);
 }
-.home__scroll{
-    /* display: none; */
+.home__scroll-button{
+    color: var(--first-color-alt);
 }
 .home__scroll-button:hover{
     transform:translateY(.25rem);
@@ -293,7 +293,7 @@ home__title{
 .home__scroll-mouse
 {
     font-size: var(--smaller-font-size);
-    color:  var(--title-color);
+    /* color:  var(--title-color); */
     font-weight: var(--font-medium);
     font-size:1.25rem;
 }
@@ -585,6 +585,11 @@ home__title{
     display: flex;
     flex-direction:  column;
     row-gap: 1.5rem;
+    
+}
+.footer__link{
+    color: var(--first-color-alt)
+    ;
 }
 .footer__link:hover{
     color: var(--first-color-lighter);
