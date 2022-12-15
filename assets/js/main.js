@@ -34,7 +34,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /*==================== QUALIFICATION TABS ====================*/
-/* const  tabs =document.querySelector('[data-target]'),
+const  tabs =document.querySelector('[data-target]'),
       tabContents =document.querySelectorAll('[data-content]')
 tabs.forEach(tab=>{
    tab.addEventListener('click',()=>{
@@ -50,7 +50,7 @@ tabs.forEach(tab=>{
       })
       tab.classList.add('qualification__active')
    })
-}) */
+})
 
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll('.services__modal'),
