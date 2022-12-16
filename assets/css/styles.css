@@ -54,6 +54,10 @@
     --z-modal: 1000;
 }
 
+i.uil{
+    margin-right: 1rem;
+}
+
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
