@@ -54,6 +54,10 @@
     --z-modal: 1000;
 }
 
+i.uil{
+    margin-right: 1rem;
+}
+
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
@@ -381,6 +385,9 @@ home__title{
         cursor: pointer;
     }
     .qualification__button:hover{
+        color: var(--first-color);
+    }
+    .qualification__button.qualification__active{
         color: var(--first-color);
     }
     .qualification__icon{
